@@ -9,7 +9,7 @@ else
 end
 
 def not_safe?(speed)
-if speed < 40 ? "notsafe" : true
+if speed < 40 || 60 ? false : true
 end
 end
 
